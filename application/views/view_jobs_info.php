@@ -12,27 +12,27 @@
 
 			<tr role="row">
 				<th aria-label=" Username : activate to sort column descending"
-					aria-sort="ascending" style="width: 120px;" colspan="1"
+					aria-sort="ascending" style="width: 30px;" colspan="1"
 					rowspan="1"
 					aria-controls="sample_editable_1" id="seq" tabindex="0"
 					class="sorting_asc">
 					المتسلسل
 				</th>
 				<th aria-label=" Username : activate to sort column descending"
-					aria-sort="ascending" style="width: 120px;" colspan="1"
+					aria-sort="ascending" style="width: 150px;" colspan="1"
 					rowspan="1"
 					aria-controls="sample_editable_1" tabindex="0"
 					class="sorting_asc">
 					اسم المكلف
 				</th>
 				<th aria-label=" Full Name : activate to sort column ascending"
-					style="width: 120px;" colspan="1" rowspan="1"
+					style="width: 50px;" colspan="1" rowspan="1"
 					aria-controls="sample_editable_1"
 					tabindex="0" class="sorting">
 					رقم الهوية
 				</th>
 				<th aria-label=" Points : activate to sort column ascending"
-					style="width: 100px;"
+					style="width: 70px;"
 					colspan="1" rowspan="1"
 					aria-controls="sample_editable_1" tabindex="0"
 					class="sorting">
@@ -40,7 +40,7 @@
 				</th>
 				<th id=""
 					aria-label=" Edit : activate to sort column ascending"
-					style="width: 81px;"
+					style="width: 100px;"
 					colspan="1" rowspan="1"
 					aria-controls="sample_editable_1" tabindex="0"
 					class="sorting">اسم الحرفة
@@ -118,14 +118,14 @@
 
 				<th id="edit_th"
 					aria-label=" Delete : activate to sort column ascending"
-					style="width: 113px;"
+					style="width: 80px;"
 					colspan="1" rowspan="1"
 					aria-controls="sample_editable_1" tabindex="0"
 					class="sorting">
 				</th>
 				<th id="delete_th"
 					aria-label=" Delete : activate to sort column ascending"
-					style="width: 113px;"
+					style="width: 80px;"
 					colspan="1" rowspan="1"
 					aria-controls="sample_editable_1" tabindex="0"
 					class="sorting" hidden>
@@ -143,7 +143,7 @@
 						<td class="">  <?php echo $row->file_num; ?> </td>
 						<td class="">  <?php foreach ($jobs_name as $job){
 							if ($job->id == $row->job_code)
-							   echo $job->job_name;
+							{echo $job->job_name;}
 							} ?>
 						</td>
 						<td hidden><?=$row->id?></td>
@@ -165,6 +165,8 @@
 						<td>
 							<button  data-toggle="modal" data-target="#editModal" class="btn btn-outline editingTRbutton btn-circle  btn-sm green">
 								<i class="fa fa-edit"></i> تعديل </button >
+								<a href="<?=base_url()?>index.php/jobs_c/delete_subscriber/<?=$row->id?>"  onclick="ConfirmDelete()"  class="btn btn-outline btn-circle dark btn-sm black">
+								<i class="fa fa-trash-o"></i> حذف </a>
 						</td>
 					</tr>
 					<?php $i++; }?>
@@ -302,7 +304,7 @@
 								<div class="form-group">
 									<label class="control-label col-md-3">اسم الحرفة  </label>
 									<div class="col-md-9 id_100" >
-										<select class="form-control" id="job_name" name="job_name" >
+										<select id="job_name" name="job_name"   class="form-control form-control-solid" >
 											<option></option>
 											<?php foreach ($jobs_name as $row):?>
 
@@ -410,8 +412,8 @@
 <!--end create Modal-->
 <input type="text" id="base_url" value="<?=base_url()?>index.php/jobs_c/" hidden>
 
-<script src="../../assets/jquery-3.0.0.js"></script>
-<script src="../../assets/pages/scripts/jobs-datatable.js"></script>
+<script src="<?php echo base_url(); ?>/assets/jquery-3.0.0.js"></script>
+<script src="<?php echo base_url(); ?>/assets/pages/scripts/jobs-datatable.js"></script>
 <script>
 	/*-- ------------------                 Modal                    ------------------ */
 	$(function() {
@@ -482,6 +484,10 @@
 		});
 	});
 
-
+	function ConfirmDelete()
+	{
+		if (confirm("هل أنت متأكد من عملية الحذف ؟"))
+			location.href='linktoaccountdeletion';
+	}
 </script>
 

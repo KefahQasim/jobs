@@ -161,4 +161,15 @@ class Jobs_c extends CI_Controller {
 		elseif ($masseg == false)
 			echo json_encode( "failed!!");
 	}
+
+	public function delete_subscriber($id)
+	{
+		$this->load->helper('url');
+		$this->load->model('jobs_model');
+		$masseg= $this->jobs_model->delete_subscriber($id);
+		if ($masseg == true)
+			return redirect('jobs_c/viewJobInfo');
+		elseif ($masseg == false)
+			echo json_encode( "failed!!");
+	}
 }

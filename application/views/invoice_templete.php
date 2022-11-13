@@ -32,13 +32,13 @@ License: You must have a valid license purchased only from themeforest(the above
 	<!-- BEGIN GLOBAL MANDATORY STYLES -->
 	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet"
 		  type="text/css"/>
-	<link href="http://localhost/jobs/system/assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet"
+	<link href="<?php echo base_url(); ?>/system/assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet"
 		  type="text/css"/>
-	<link href="http://localhost/jobs/system/assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet"
+	<link href="<?php echo base_url(); ?>/system/assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet"
 		  type="text/css"/>
-	<link href="http://localhost/jobs/system/assets/global/plugins/bootstrap/css/bootstrap-rtl.min.css" rel="stylesheet"
+	<link href="<?php echo base_url(); ?>/system/assets/global/plugins/bootstrap/css/bootstrap-rtl.min.css" rel="stylesheet"
 		  type="text/css"/>
-	<link href="http://localhost/jobs/system/assets/global/plugins/bootstrap-switch/css/bootstrap-switch-rtl.min.css"
+	<link href="<?php echo base_url(); ?>/system/assets/global/plugins/bootstrap-switch/css/bootstrap-switch-rtl.min.css"
 		  rel="stylesheet"
 		  type="text/css"/>
 	<!-- END GLOBAL MANDATORY STYLES -->
@@ -46,59 +46,59 @@ License: You must have a valid license purchased only from themeforest(the above
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<!-- BEGIN PAGE LEVEL PLUGINS -->
-	<link href="http://localhost/jobs/system/assets/global/plugins/datatables/datatables.min.css" rel="stylesheet"
+	<link href="<?php echo base_url(); ?>/system/assets/global/plugins/datatables/datatables.min.css" rel="stylesheet"
 		  type="text/css"/>
-	<link href="http://localhost/jobs/system/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap-rtl.css"
+	<link href="<?php echo base_url(); ?>/system/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap-rtl.css"
 		  rel="stylesheet" type="text/css"/>
-	<link href="http://localhost/jobs/system/assets/global/plugins/bootstrap-table/bootstrap-table.min.css" rel="stylesheet" type="text/css" />
+	<link href="<?php echo base_url(); ?>/system/assets/global/plugins/bootstrap-table/bootstrap-table.min.css" rel="stylesheet" type="text/css" />
 	<!-- date picker-->
-	<link href="http://localhost/jobs/system/assets/global/plugins/bootstrap-daterangepicker/daterangepicker.min.css" rel="stylesheet" type="text/css"/>
-	<link href="http://localhost/jobs/system/assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" rel="stylesheet" type="text/css"/>
-	<link href="http://localhost/jobs/system/assets/global/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css" rel="stylesheet" type="text/css"/>
-	<link href="http://localhost/jobs/system/assets/global/plugins/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet" type="text/css"/>
-	<link href="http://localhost/jobs/system/assets/global/plugins/clockface/css/clockface.css" rel="stylesheet" type="text/css"/>
-	<link href="http://localhost/jobs/system/assets/global/fullcalendar/fullcalendar.min.css" rel="stylesheet" type="text/css"/>
-	<link href="http://localhost/jobs/system/assets/global/fullcalendar/base.css" rel="stylesheet" type="text/css"/>
-	<link href="http://localhost/jobs/system/assets/global/fullcalendar/css.css" rel="stylesheet" type="text/css"/>
+	<link href="<?php echo base_url(); ?>/system/assets/global/plugins/bootstrap-daterangepicker/daterangepicker.min.css" rel="stylesheet" type="text/css"/>
+	<link href="<?php echo base_url(); ?>/system/assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" rel="stylesheet" type="text/css"/>
+	<link href="<?php echo base_url(); ?>/system/assets/global/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css" rel="stylesheet" type="text/css"/>
+	<link href="<?php echo base_url(); ?>/system/assets/global/plugins/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet" type="text/css"/>
+	<link href="<?php echo base_url(); ?>/system/assets/global/plugins/clockface/css/clockface.css" rel="stylesheet" type="text/css"/>
+	<link href="<?php echo base_url(); ?>/system/assets/global/fullcalendar/fullcalendar.min.css" rel="stylesheet" type="text/css"/>
+	<link href="<?php echo base_url(); ?>/system/assets/global/fullcalendar/base.css" rel="stylesheet" type="text/css"/>
+	<link href="<?php echo base_url(); ?>/system/assets/global/fullcalendar/css.css" rel="stylesheet" type="text/css"/>
 	<!-- form wizared -->
-	<link href="http://localhost/jobs/system/assets/global/plugins/select2/css/select2.min.css" rel="stylesheet" type="text/css"/>
-	<link href="http://localhost/jobs/system/assets/global/plugins/select2/css/select2-bootstrap.min.css" rel="stylesheet"
+	<link href="<?php echo base_url(); ?>/system/assets/global/plugins/select2/css/select2.min.css" rel="stylesheet" type="text/css"/>
+	<link href="<?php echo base_url(); ?>/system/assets/global/plugins/select2/css/select2-bootstrap.min.css" rel="stylesheet"
 		  type="text/css"/>
 
-	<link href="http://localhost/jobs/system/assets/global/plugins/bootstrap-touchspin/bootstrap.touchspin.css" rel="stylesheet"
+	<link href="<?php echo base_url(); ?>/system/assets/global/plugins/bootstrap-touchspin/bootstrap.touchspin.css" rel="stylesheet"
 		  type="text/css"/>
 
 
 	<!--  file upload -->
 
-	<link href="http://localhost/jobs/system/assets/global/plugins/bootstrap-fileinput/bootstrap-fileinput.css" rel="stylesheet"
+	<link href="<?php echo base_url(); ?>/system/assets/global/plugins/bootstrap-fileinput/bootstrap-fileinput.css" rel="stylesheet"
 		  type="text/css"/>
 	<!-- END PAGE LEVEL PLUGINS -->
 
 
 	<!-- BEGIN THEME GLOBAL STYLES -->
-	<link href="http://localhost/jobs/system/assets/global/css/components-rtl.css" rel="stylesheet" id="style_components"
+	<link href="<?php echo base_url(); ?>/system/assets/global/css/components-rtl.css" rel="stylesheet" id="style_components"
 		  type="text/css"/>
-	<link href="http://localhost/jobs/system/assets/global/css/plugins-rtl.min.css" rel="stylesheet" type="text/css"/>
+	<link href="<?php echo base_url(); ?>/system/assets/global/css/plugins-rtl.min.css" rel="stylesheet" type="text/css"/>
 	<!-- END THEME GLOBAL STYLES -->
 
 
 	<!-- BEGIN THEME LAYOUT STYLES -->
-	<link href="http://localhost/jobs/system/assets/layouts/layout/css/layout-rtl.min.css" rel="stylesheet" type="text/css"/>
-	<link href="http://localhost/jobs/system/assets/layouts/layout/css/themes/default-rtl.css" rel="stylesheet" type="text/css"
+	<link href="<?php echo base_url(); ?>/system/assets/layouts/layout/css/layout-rtl.min.css" rel="stylesheet" type="text/css"/>
+	<link href="<?php echo base_url(); ?>/system/assets/layouts/layout/css/themes/default-rtl.css" rel="stylesheet" type="text/css"
 		  id="style_color"/>
-	<link href="http://localhost/jobs/system/assets/layouts/layout/css/custom-rtl.min.css" rel="stylesheet" type="text/css"/>
+	<link href="<?php echo base_url(); ?>/system/assets/layouts/layout/css/custom-rtl.min.css" rel="stylesheet" type="text/css"/>
 
-	<link href="http://localhost/jobs/system/assets/my/myFont.css" rel='stylesheet' type='text/css'>
-	<link href="http://localhost/jobs/system/assets/my/panel_.css" rel="stylesheet" type="text/css"/>
+	<link href="<?php echo base_url(); ?>/system/assets/my/myFont.css" rel='stylesheet' type='text/css'>
+	<link href="<?php echo base_url(); ?>/system/assets/my/panel_.css" rel="stylesheet" type="text/css"/>
 	<!-- sweet alert -->
-	<link href="http://localhost/jobs/system/assets/pages/sweetalert/sweetalert.css" rel="stylesheet" type="text/css"/>
+	<link href="<?php echo base_url(); ?>/system/assets/pages/sweetalert/sweetalert.css" rel="stylesheet" type="text/css"/>
 
 	<!-- END THEME LAYOUT STYLES -->
 	<link rel="shortcut icon" href="favicon.ico"/>
 	<!-- add  css toastr -->
-	<link href="http://localhost/jobs/system/assets/pages/css/toastr.css" rel="stylesheet" type="text/css"/>
-	<link href="http://localhost/jobs/system/assets/pages/css/mystyle.css" rel="stylesheet" type="text/css"/>
+	<link href="<?php echo base_url(); ?>/system/assets/pages/css/toastr.css" rel="stylesheet" type="text/css"/>
+	<link href="<?php echo base_url(); ?>/system/assets/pages/css/mystyle.css" rel="stylesheet" type="text/css"/>
 	<!-- end  css toastr -->
 </head>
 <!-- END HEAD -->
@@ -111,8 +111,8 @@ License: You must have a valid license purchased only from themeforest(the above
 	<div class="page-header-inner ">
 		<!-- BEGIN LOGO -->
 		<div class="page-logo">
-			<a href="<?=base_url()?>index.php/jobs_c/">
-				<img src="http://localhost/jobs/system/assets/layouts/layout/img/mun_logo2.JPG" alt="logo" class="logo-default" style="margin:0px; margin-right:-20px; height: 50px; width: 235px"/> </a>
+			<a href="">
+				<img src="<?php echo base_url(); ?>/system/assets/layouts/layout/img/logoo.png" alt="logo" class="h-60px logo" style=" margin-top: 3px; margin-right:10px; height: 50px; width: 150px"/> </a>
 			<div class="menu-toggler sidebar-toggler">
 				<span></span>
 			</div>
@@ -194,26 +194,7 @@ License: You must have a valid license purchased only from themeforest(the above
 					<!-- END SIDEBAR TOGGLER BUTTON -->
 				</li>
 				<!-- DOC: To remove the search box from the sidebar you just need to completely remove the below "sidebar-search-wrapper" LI element -->
-				<li class="sidebar-search-wrapper">
-					<!-- BEGIN RESPONSIVE QUICK SEARCH FORM -->
-					<!-- DOC: Apply "sidebar-search-bordered" class the below search form to have bordered search box -->
-					<!-- DOC: Apply "sidebar-search-bordered sidebar-search-solid" class the below search form to have bordered & solid search box -->
-					<form class="sidebar-search  sidebar-search-bordered" action="page_general_search_3.html"
-						  method="POST">
-						<a href="javascript:;" class="remove">
-							<i class="icon-close"></i>
-						</a>
-						<div class="input-group">
-							<input type="text" class="form-control" placeholder="Search...">
-							<span class="input-group-btn">
-								<a href="javascript:;" class="btn submit">
-									<i class="icon-magnifier"></i>
-								</a>
-							</span>
-						</div>
-					</form>
-					<!-- END RESPONSIVE QUICK SEARCH FORM -->
-				</li>
+
 				<li> <a href="<?php echo base_url()."index.php/jobs_c/index";?>">
 						<i class="fa fa-home"></i>
 						الرئيسية
@@ -235,7 +216,7 @@ License: You must have a valid license purchased only from themeforest(the above
 					</ul>
 				</li>
 				<li class="nav-item start  selected">
-					<a href="{{ route('circles.index') }}" class="nav-link nav-toggle">
+					<a href="" class="nav-link nav-toggle">
 						<i class=""></i>
 						<span class="title">المكلفين</span>
 						<span class="arrow"></span>
@@ -304,105 +285,105 @@ License: You must have a valid license purchased only from themeforest(the above
 
 
 <!-- BEGIN CORE PLUGINS -->
-<script src="http://localhost/jobs/system/assets/global/plugins/respond.min.js"></script>
-<script src="http://localhost/jobs/system/assets/global/plugins/excanvas.min.js"></script>
+<script src="<?php echo base_url(); ?>/system/assets/global/plugins/respond.min.js"></script>
+<script src="<?php echo base_url(); ?>/system/assets/global/plugins/excanvas.min.js"></script>
 <![endif]-->
 
-<script src="http://localhost/jobs/system/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/global/plugins/js.cookie.min.js" type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/global/plugins/js.cookie.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
 <!-- END CORE PLUGINS -->
 
 <!-- BEGIN PAGE LEVEL PLUGINS -->
 
-<script src="http://localhost/jobs/system/assets/global/fullcalendar/moment.min.js" type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/global/fullcalendar/fullcalendar.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/global/fullcalendar/moment.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/global/fullcalendar/fullcalendar.js" type="text/javascript"></script>
 
-<script src="http://localhost/jobs/system/assets/global/fullcalendar/home.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/global/fullcalendar/home.js" type="text/javascript"></script>
 
-<script src="http://localhost/jobs/system/assets/global/scripts/datatable.js" type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/global/plugins/datatables/datatables.min.js" type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/global/plugins/jquery.pulsate.min.js" type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/global/plugins/jquery-bootpag/jquery.bootpag.min.js" type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/global/plugins/holder.js" type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.js" type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/global/plugins/bootstrap-confirmation/bootstrap-confirmation.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/global/scripts/datatable.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/global/plugins/datatables/datatables.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/global/plugins/jquery.pulsate.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/global/plugins/jquery-bootpag/jquery.bootpag.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/global/plugins/holder.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/global/plugins/bootstrap-confirmation/bootstrap-confirmation.min.js" type="text/javascript"></script>
 
 <!--  Date picker  -->
 
 
-<script src="http://localhost/jobs/system/assets/global/plugins/moment.min.js" type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/global/plugins/bootstrap-daterangepicker/daterangepicker.min.js" type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js" type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/global/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js" type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/global/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/global/plugins/clockface/js/clockface.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/global/plugins/moment.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/global/plugins/bootstrap-daterangepicker/daterangepicker.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/global/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/global/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/global/plugins/clockface/js/clockface.js" type="text/javascript"></script>
 
 
 <!--   form wizared -->
 
 
-<script src="http://localhost/jobs/system/assets/global/plugins/select2/js/select2.full.min.js" type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/global/plugins/jquery-validation/js/jquery.validate.js"
+<script src="<?php echo base_url(); ?>/system/assets/global/plugins/select2/js/select2.full.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/global/plugins/jquery-validation/js/jquery.validate.js"
 		type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/global/plugins/jquery-validation/js/additional-methods.min.js"
+<script src="<?php echo base_url(); ?>/system/assets/global/plugins/jquery-validation/js/additional-methods.min.js"
 		type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/global/plugins/bootstrap-wizard/jquery.bootstrap.wizard.min.js"
+<script src="<?php echo base_url(); ?>/system/assets/global/plugins/bootstrap-wizard/jquery.bootstrap.wizard.min.js"
 		type="text/javascript"></script>
 
-<script src="http://localhost/jobs/system/assets/global/plugins/fuelux/js/spinner.min.js" type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/global/plugins/bootstrap-touchspin/bootstrap.touchspin.js"
+<script src="<?php echo base_url(); ?>/system/assets/global/plugins/fuelux/js/spinner.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/global/plugins/bootstrap-touchspin/bootstrap.touchspin.js"
 		type="text/javascript"></script>
 
 
 <!--  file  -->
 
-<script src="http://localhost/jobs/system/assets/global/plugins/bootstrap-fileinput/bootstrap-fileinput.js"
+<script src="<?php echo base_url(); ?>/system/assets/global/plugins/bootstrap-fileinput/bootstrap-fileinput.js"
 		type="text/javascript"></script><!-- END PAGE LEVEL PLUGINS -->
 
 
 <!-- BEGIN THEME GLOBAL SCRIPTS -->
-<script src="http://localhost/jobs/system/assets/global/scripts/app.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/global/scripts/app.min.js" type="text/javascript"></script>
 
 <!-- END THEME GLOBAL SCRIPTS -->
 
 
 <!-- BEGIN PAGE LEVEL SCRIPTS -->
-<script src="http://localhost/jobs/system/assets/pages/scripts/components-bootstrap-touchspin.js" type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/pages/scripts/components-date-time-pickers.min.js"
+<script src="<?php echo base_url(); ?>/system/assets/pages/scripts/components-bootstrap-touchspin.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/pages/scripts/components-date-time-pickers.min.js"
 		type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/pages/scripts/components-select2.min.js" type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/pages/scripts/form-wizard.js" type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/my_JS/multi_sel.js" type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/pages/scripts/table-datatables-editable.js" type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/pages/scripts/ui-general.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/pages/scripts/components-select2.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/pages/scripts/form-wizard.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/my_JS/multi_sel.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/pages/scripts/table-datatables-editable.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/pages/scripts/ui-general.min.js" type="text/javascript"></script>
 <!--       file upload      -->
 
 
-<script src="http://localhost/jobs/system/assets/pages/scripts/form-validation.js" type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/global/plugins/bootstrap-table/bootstrap-table.min.js" type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/pages/scripts/table-bootstrap.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/pages/scripts/form-validation.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/global/plugins/bootstrap-table/bootstrap-table.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/pages/scripts/table-bootstrap.min.js" type="text/javascript"></script>
 
 
 <!-- END PAGE LEVEL SCRIPTS -->
 
 
 <!-- BEGIN THEME LAYOUT SCRIPTS -->
-<script src="http://localhost/jobs/system/assets/layouts/layout/scripts/layout.min.js" type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/layouts/layout/scripts/demo.min.js" type="text/javascript"></script>
-<script src="http://localhost/jobs/system/assets/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/layouts/layout/scripts/layout.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/layouts/layout/scripts/demo.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
 <!-- END THEME LAYOUT SCRIPTS -->
 <!-- add js toastr -->
-<script src="http://localhost/jobs/system/assets/pages/scripts/toastr.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/pages/scripts/toastr.js" type="text/javascript"></script>
 <!--sweet alert -->
-<script src="http://localhost/jobs/system/assets/pages/sweetalert/sweetalert.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/pages/sweetalert/sweetalert.min.js" type="text/javascript"></script>
 
 <!-- pulsate add -->
-<script src="http://localhost/jobs/system/assets/global/plugins/jquery.pulsate.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/system/assets/global/plugins/jquery.pulsate.min.js" type="text/javascript"></script>
 
 
 

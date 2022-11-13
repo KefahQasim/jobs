@@ -31,7 +31,7 @@
 <div class="invoice">
 	<div class="row invoice-logo">
 		<div class="col-xs-12">
-			<img src="http://localhost/jobs/assets/pages/media/invoice/header.jpg" />  </div>
+			<img src="<?php echo base_url(); ?>/assets/pages/media/invoice/header.jpeg" />  </div>
 
 	</div>
 	<br>
@@ -52,7 +52,7 @@
 				<address>
 					<strong>الفاتورة الاجمالية : </strong>
 
-					<a href="mailto:#"> <?php  echo ($taxInfo[0]['annual_tax']*12) + $taxInfo[0]['annual_tax']    ; ?> </a>
+					<a href=""> <?php  echo ($taxInfo[0]['annual_tax']*12) + $taxInfo[0]['annual_tax']    ; ?> </a>
 				</address>
 			</div>
 			<div class="well container-border rounded-4" style="background: lightgrey; " id="container-border">
@@ -155,7 +155,7 @@
 	</div>
 	<div class="row">
 		<div class="col-xs-12">
-			<img src="http://localhost/jobs/assets/pages/media/invoice/footer.jpg" />  </div>
+			<img src="<?php echo base_url(); ?>/assets/pages/media/invoice/footer.jpg" />  </div>
 
 	</div>
 	</div>

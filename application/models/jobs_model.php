@@ -53,6 +53,18 @@ class jobs_model extends CI_Model
 			return false;
 		}
 	}
+	function delete_subscriber($id)
+	{
+
+		$this->db->where('id', $id);
+		$query = $this->db->delete('subscribers');
+
+		if($query){
+			return true;
+		} else {
+			return false;
+		}
+	}
 	//اضافة بيانات الفاتورة والمكلفين
 	function add_job_bill()
 	{
@@ -82,9 +94,12 @@ class jobs_model extends CI_Model
 	}
 
 	public function get_jobs(){
-		$query = $this->db->get("annual_tax");
-		return $query->result();
 
+		$this->db->select('*');
+		$this->db->from('annual_tax');
+		$this->db->order_by('job_name', 'asc');
+		$query = $this->db->get();
+		return $query->result();
 	}
 
 	public function get_jobs_info(){
@@ -159,7 +174,7 @@ class jobs_model extends CI_Model
 			'cust_name' 		=> $this->input->post('cust_name'),
 			'card_id' 		=> $this->input->post('card_id'),
 			'profession_name' 		=> $this->input->post('profession_name'),
-			'job_code' 		=> $this->input->post('job_code'),
+			'job_code' 		=> $this->input->post('job_name'),
 			'job_name' 		=> $this->input->post('job_name'),
 			'job_status' 		=> $this->input->post('job_status'),
 			'cust_address' 	=> $this->input->post('cust_address'),
